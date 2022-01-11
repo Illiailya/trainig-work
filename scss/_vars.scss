@@ -1,0 +1,28 @@
+// Шрифты==================================================
+$Montserrat: Montserrat,  sans-serif;
+
+
+
+
+
+// Цвета==================================================
+$colorMain: #737373;
+$colorAccent: #0D5C63;
+$colorBtn: #FF7B47;
+$colorTitle: #252B42;
+
+
+
+
+
+// Мексины==================================================
+%bgcontain {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+%bgcover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
