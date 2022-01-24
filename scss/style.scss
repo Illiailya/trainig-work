@@ -4,6 +4,7 @@
 @import 'libs';
 @import 'reset';
 @import 'global';
+@import 'icons';
 
 .header {
 	position: fixed;
@@ -421,11 +422,6 @@
 
 	&__item {
 		text-align: center;
-
-		svg {
-			fill: $colorMain;
-			transition: fill 0.3s ease;
-		}
 	}
 
 	&__link {
@@ -436,8 +432,10 @@
 			opacity: 0.7;
 		}
 
-		&:active svg {
-			fill: $colorBtn;
+		&:active {
+			.brand-icon {
+				fill: $colorBtn;
+			}
 		}
 	}
 
